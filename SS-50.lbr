@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="3" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="15" fill="10" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="SS-30_BOARD_CONNECTOR">
+<pad name="30" x="-57.7596" y="3.556" drill="1.524"/>
+<wire x1="-59.69" y1="-6.35" x2="-59.69" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-59.69" y1="-4.445" x2="-59.69" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-59.69" y1="-6.35" x2="59.055" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-59.69" y1="5.08" x2="59.055" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-59.69" y1="-4.445" x2="59.055" y2="-4.445" width="0.127" layer="21"/>
+<pad name="29" x="-53.7972" y="3.556" drill="1.524"/>
+<pad name="28" x="-49.8348" y="3.556" drill="1.524"/>
+<pad name="27" x="-45.8724" y="3.556" drill="1.524"/>
+<pad name="26" x="-41.91" y="3.556" drill="1.524"/>
+<pad name="25" x="-37.9476" y="3.556" drill="1.524"/>
+<pad name="24" x="-33.9852" y="3.556" drill="1.524"/>
+<pad name="23" x="-30.0228" y="3.556" drill="1.524"/>
+<pad name="22" x="-26.0604" y="3.556" drill="1.524"/>
+<pad name="21" x="-22.098" y="3.556" drill="1.524"/>
+<pad name="20" x="-18.1356" y="3.556" drill="1.524"/>
+<pad name="19" x="-14.1732" y="3.556" drill="1.524"/>
+<pad name="18" x="-10.2108" y="3.556" drill="1.524"/>
+<pad name="17" x="-6.2484" y="3.556" drill="1.524"/>
+<pad name="16" x="-2.286" y="3.556" drill="1.524"/>
+<pad name="15" x="1.6764" y="3.556" drill="1.524"/>
+<pad name="14" x="5.6388" y="3.556" drill="1.524"/>
+<pad name="13" x="9.6012" y="3.556" drill="1.524"/>
+<pad name="12" x="13.5636" y="3.556" drill="1.524"/>
+<pad name="11" x="17.526" y="3.556" drill="1.524"/>
+<pad name="10" x="21.4884" y="3.556" drill="1.524"/>
+<pad name="9" x="25.4508" y="3.556" drill="1.524"/>
+<pad name="8" x="29.4132" y="3.556" drill="1.524"/>
+<pad name="7" x="33.3756" y="3.556" drill="1.524"/>
+<pad name="6" x="37.338" y="3.556" drill="1.524"/>
+<pad name="5" x="41.3004" y="3.556" drill="1.524"/>
+<pad name="4" x="45.2628" y="3.556" drill="1.524"/>
+<pad name="3" x="49.2252" y="3.556" drill="1.524"/>
+<pad name="2" x="53.1876" y="3.556" drill="1.524"/>
+<pad name="1" x="57.15" y="3.556" drill="1.524"/>
+<wire x1="59.055" y1="5.08" x2="59.055" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="59.055" y1="-4.445" x2="59.055" y2="-6.35" width="0.127" layer="21"/>
+<text x="-59.69" y="5.715" size="1.27" layer="25">&gt;Name</text>
+</package>
+<package name="SS-30_MALE_CONNECTOR">
+<pad name="30" x="-57.7596" y="3.556" drill="1.524"/>
+<wire x1="-59.69" y1="0" x2="-59.69" y2="7.112" width="0.127" layer="21"/>
+<wire x1="-59.69" y1="7.112" x2="59.055" y2="7.112" width="0.127" layer="21"/>
+<wire x1="-59.69" y1="0" x2="59.055" y2="0" width="0.127" layer="21"/>
+<pad name="29" x="-53.7972" y="3.556" drill="1.524"/>
+<pad name="28" x="-49.8348" y="3.556" drill="1.524"/>
+<pad name="27" x="-45.8724" y="3.556" drill="1.524"/>
+<pad name="26" x="-41.91" y="3.556" drill="1.524"/>
+<pad name="25" x="-37.9476" y="3.556" drill="1.524"/>
+<pad name="24" x="-33.9852" y="3.556" drill="1.524"/>
+<pad name="23" x="-30.0228" y="3.556" drill="1.524"/>
+<pad name="22" x="-26.0604" y="3.556" drill="1.524"/>
+<pad name="21" x="-22.098" y="3.556" drill="1.524"/>
+<pad name="20" x="-18.1356" y="3.556" drill="1.524"/>
+<pad name="19" x="-14.1732" y="3.556" drill="1.524"/>
+<pad name="18" x="-10.2108" y="3.556" drill="1.524"/>
+<pad name="17" x="-6.2484" y="3.556" drill="1.524"/>
+<pad name="16" x="-2.286" y="3.556" drill="1.524"/>
+<pad name="15" x="1.6764" y="3.556" drill="1.524"/>
+<pad name="14" x="5.6388" y="3.556" drill="1.524"/>
+<pad name="13" x="9.6012" y="3.556" drill="1.524"/>
+<pad name="12" x="13.5636" y="3.556" drill="1.524"/>
+<pad name="11" x="17.526" y="3.556" drill="1.524"/>
+<pad name="10" x="21.4884" y="3.556" drill="1.524"/>
+<pad name="9" x="25.4508" y="3.556" drill="1.524"/>
+<pad name="8" x="29.4132" y="3.556" drill="1.524"/>
+<pad name="6" x="37.338" y="3.556" drill="1.524"/>
+<pad name="5" x="41.3004" y="3.556" drill="1.524"/>
+<pad name="4" x="45.2628" y="3.556" drill="1.524"/>
+<pad name="3" x="49.2252" y="3.556" drill="1.524"/>
+<pad name="2" x="53.1876" y="3.556" drill="1.524"/>
+<pad name="1" x="57.15" y="3.556" drill="1.524"/>
+<wire x1="59.055" y1="0" x2="59.055" y2="7.112" width="0.127" layer="21"/>
+<text x="-59.69" y="10.795" size="1.27" layer="25">&gt;Name</text>
+</package>
+<package name="SS-50_BOARD_CONNECTOR">
+<pad name="30" x="-18.3896" y="3.556" drill="1.524"/>
+<wire x1="-99.6188" y1="-6.35" x2="-99.6188" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-99.6188" y1="-4.445" x2="-99.6188" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-99.6188" y1="-6.35" x2="98.425" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-99.6188" y1="5.08" x2="98.425" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-99.6188" y1="-4.445" x2="98.425" y2="-4.445" width="0.127" layer="21"/>
+<pad name="29" x="-14.4272" y="3.556" drill="1.524"/>
+<pad name="28" x="-10.4648" y="3.556" drill="1.524"/>
+<pad name="27" x="-6.5024" y="3.556" drill="1.524"/>
+<pad name="26" x="-2.54" y="3.556" drill="1.524"/>
+<pad name="25" x="1.4224" y="3.556" drill="1.524"/>
+<pad name="24" x="5.3848" y="3.556" drill="1.524"/>
+<pad name="23" x="9.3472" y="3.556" drill="1.524"/>
+<pad name="22" x="13.3096" y="3.556" drill="1.524"/>
+<pad name="21" x="17.272" y="3.556" drill="1.524"/>
+<pad name="20" x="21.2344" y="3.556" drill="1.524"/>
+<pad name="19" x="25.1968" y="3.556" drill="1.524"/>
+<pad name="18" x="29.1592" y="3.556" drill="1.524"/>
+<pad name="17" x="33.1216" y="3.556" drill="1.524"/>
+<pad name="16" x="37.084" y="3.556" drill="1.524"/>
+<pad name="15" x="41.0464" y="3.556" drill="1.524"/>
+<pad name="14" x="45.0088" y="3.556" drill="1.524"/>
+<pad name="13" x="48.9712" y="3.556" drill="1.524"/>
+<pad name="12" x="52.9336" y="3.556" drill="1.524"/>
+<pad name="11" x="56.896" y="3.556" drill="1.524"/>
+<pad name="10" x="60.8584" y="3.556" drill="1.524"/>
+<pad name="9" x="64.8208" y="3.556" drill="1.524"/>
+<pad name="8" x="68.7832" y="3.556" drill="1.524"/>
+<pad name="7" x="72.7456" y="3.556" drill="1.524"/>
+<pad name="6" x="76.708" y="3.556" drill="1.524"/>
+<pad name="5" x="80.6704" y="3.556" drill="1.524"/>
+<pad name="4" x="84.6328" y="3.556" drill="1.524"/>
+<pad name="3" x="88.5952" y="3.556" drill="1.524"/>
+<pad name="2" x="92.5576" y="3.556" drill="1.524"/>
+<pad name="1" x="96.52" y="3.556" drill="1.524"/>
+<wire x1="98.425" y1="5.08" x2="98.425" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="98.425" y1="-4.445" x2="98.425" y2="-6.35" width="0.127" layer="21"/>
+<text x="-99.06" y="5.715" size="1.27" layer="25">&gt;Name</text>
+<pad name="31" x="-22.352" y="3.556" drill="1.524"/>
+<pad name="32" x="-26.3144" y="3.556" drill="1.524"/>
+<pad name="33" x="-30.2768" y="3.556" drill="1.524"/>
+<pad name="34" x="-34.2392" y="3.556" drill="1.524"/>
+<pad name="35" x="-38.2016" y="3.556" drill="1.524"/>
+<pad name="36" x="-42.164" y="3.556" drill="1.524"/>
+<pad name="37" x="-46.1264" y="3.556" drill="1.524"/>
+<pad name="38" x="-50.0888" y="3.556" drill="1.524"/>
+<pad name="39" x="-54.0512" y="3.556" drill="1.524"/>
+<pad name="40" x="-58.0136" y="3.556" drill="1.524"/>
+<pad name="41" x="-61.976" y="3.556" drill="1.524"/>
+<pad name="42" x="-65.9384" y="3.556" drill="1.524"/>
+<pad name="43" x="-69.9008" y="3.556" drill="1.524"/>
+<pad name="44" x="-73.8632" y="3.556" drill="1.524"/>
+<pad name="45" x="-77.8256" y="3.556" drill="1.524"/>
+<pad name="46" x="-81.788" y="3.556" drill="1.524"/>
+<pad name="47" x="-85.7504" y="3.556" drill="1.524"/>
+<pad name="48" x="-89.7128" y="3.556" drill="1.524"/>
+<pad name="49" x="-93.6752" y="3.556" drill="1.524"/>
+<pad name="50" x="-97.6376" y="3.556" drill="1.524"/>
+</package>
+<package name="SS-50_MALE_CONNECTOR">
+<pad name="1" x="97.1296" y="0.254" drill="1.524" rot="R180"/>
+<wire x1="99.06" y1="3.81" x2="99.06" y2="-3.302" width="0.127" layer="21"/>
+<wire x1="99.06" y1="-3.302" x2="-99.0092" y2="-3.302" width="0.127" layer="21"/>
+<wire x1="99.06" y1="3.81" x2="-99.0092" y2="3.81" width="0.127" layer="21"/>
+<pad name="2" x="93.1672" y="0.254" drill="1.524" rot="R180"/>
+<pad name="3" x="89.2048" y="0.254" drill="1.524" rot="R180"/>
+<pad name="4" x="85.2424" y="0.254" drill="1.524" rot="R180"/>
+<pad name="5" x="81.28" y="0.254" drill="1.524" rot="R180"/>
+<pad name="6" x="77.3176" y="0.254" drill="1.524" rot="R180"/>
+<pad name="7" x="73.3552" y="0.254" drill="1.524" rot="R180"/>
+<pad name="8" x="69.3928" y="0.254" drill="1.524" rot="R180"/>
+<pad name="9" x="65.4304" y="0.254" drill="1.524" rot="R180"/>
+<pad name="10" x="61.468" y="0.254" drill="1.524" rot="R180"/>
+<pad name="11" x="57.5056" y="0.254" drill="1.524" rot="R180"/>
+<pad name="12" x="53.5432" y="0.254" drill="1.524" rot="R180"/>
+<pad name="13" x="49.5808" y="0.254" drill="1.524" rot="R180"/>
+<pad name="14" x="45.6184" y="0.254" drill="1.524" rot="R180"/>
+<pad name="15" x="41.656" y="0.254" drill="1.524" rot="R180"/>
+<pad name="16" x="37.6936" y="0.254" drill="1.524" rot="R180"/>
+<pad name="17" x="33.7312" y="0.254" drill="1.524" rot="R180"/>
+<pad name="18" x="29.7688" y="0.254" drill="1.524" rot="R180"/>
+<pad name="19" x="25.8064" y="0.254" drill="1.524" rot="R180"/>
+<pad name="20" x="21.844" y="0.254" drill="1.524" rot="R180"/>
+<pad name="21" x="17.8816" y="0.254" drill="1.524" rot="R180"/>
+<pad name="22" x="13.9192" y="0.254" drill="1.524" rot="R180"/>
+<pad name="23" x="9.9568" y="0.254" drill="1.524" rot="R180"/>
+<pad name="24" x="5.9944" y="0.254" drill="1.524" rot="R180"/>
+<pad name="25" x="2.032" y="0.254" drill="1.524" rot="R180"/>
+<pad name="26" x="-1.9304" y="0.254" drill="1.524" rot="R180"/>
+<pad name="27" x="-5.8928" y="0.254" drill="1.524" rot="R180"/>
+<pad name="28" x="-9.8552" y="0.254" drill="1.524" rot="R180"/>
+<pad name="29" x="-13.8176" y="0.254" drill="1.524" rot="R180"/>
+<pad name="30" x="-17.78" y="0.254" drill="1.524" rot="R180"/>
+<wire x1="-99.0092" y1="3.81" x2="-99.0092" y2="-3.302" width="0.127" layer="21"/>
+<text x="-92.71" y="5.715" size="1.27" layer="25" rot="R180">&gt;Name</text>
+<pad name="31" x="-21.7424" y="0.254" drill="1.524" rot="R180"/>
+<pad name="32" x="-25.7048" y="0.254" drill="1.524" rot="R180"/>
+<pad name="33" x="-29.6672" y="0.254" drill="1.524" rot="R180"/>
+<pad name="34" x="-33.6296" y="0.254" drill="1.524" rot="R180"/>
+<pad name="35" x="-37.592" y="0.254" drill="1.524" rot="R180"/>
+<pad name="36" x="-41.5544" y="0.254" drill="1.524" rot="R180"/>
+<pad name="37" x="-45.5168" y="0.254" drill="1.524" rot="R180"/>
+<pad name="38" x="-49.4792" y="0.254" drill="1.524" rot="R180"/>
+<pad name="39" x="-53.4416" y="0.254" drill="1.524" rot="R180"/>
+<pad name="40" x="-57.404" y="0.254" drill="1.524" rot="R180"/>
+<pad name="41" x="-61.3664" y="0.254" drill="1.524" rot="R180"/>
+<pad name="42" x="-65.3288" y="0.254" drill="1.524" rot="R180"/>
+<pad name="43" x="-69.2912" y="0.254" drill="1.524" rot="R180"/>
+<pad name="44" x="-73.2536" y="0.254" drill="1.524" rot="R180"/>
+<pad name="45" x="-77.216" y="0.254" drill="1.524" rot="R180"/>
+<pad name="46" x="-81.1784" y="0.254" drill="1.524" rot="R180"/>
+<pad name="47" x="-85.1408" y="0.254" drill="1.524" rot="R180"/>
+<pad name="48" x="-89.1032" y="0.254" drill="1.524" rot="R180"/>
+<pad name="49" x="-93.0656" y="0.254" drill="1.524" rot="R180"/>
+<pad name="50" x="-97.028" y="0.254" drill="1.524" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SS-30_BOARD_CONNECTOR">
+<pin name="GND@2" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-17.78" y="-12.7" length="middle" direction="pwr"/>
+<pin name="+8V@2" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
+<pin name="+8V@1" x="-17.78" y="-7.62" length="middle" direction="pwr"/>
+<pin name="+12V" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
+<pin name="-12V" x="-17.78" y="-2.54" length="middle" direction="pwr"/>
+<pin name="D0" x="17.78" y="27.94" length="middle" rot="R180"/>
+<pin name="D1" x="17.78" y="25.4" length="middle" rot="R180"/>
+<pin name="D2" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="D3" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="D4" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="D5" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="D6" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="D7" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="UD_3" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="UD_4" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="INDEX" x="-17.78" y="27.94" length="middle" direction="nc"/>
+<pin name="!NMI" x="-17.78" y="20.32" length="middle"/>
+<pin name="!IRQ" x="-17.78" y="17.78" length="middle"/>
+<pin name="RS0" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="RS1" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="PHASE_2" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="R/!W" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="!RESET" x="-17.78" y="22.86" length="middle"/>
+<pin name="!SELECT" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="110_BAUD" x="-17.78" y="12.7" length="middle"/>
+<pin name="150_BAUD" x="-17.78" y="10.16" length="middle"/>
+<pin name="300_BAUD" x="-17.78" y="7.62" length="middle"/>
+<pin name="600_BAUD" x="-17.78" y="5.08" length="middle"/>
+<pin name="1200_BAUD" x="-17.78" y="2.54" length="middle"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<text x="-4.064" y="31.242" size="1.778" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="SS-50C_BOARD_CONNECTOR">
+<pin name="GND@2" x="-17.78" y="-27.94" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-17.78" y="-25.4" length="middle" direction="pwr"/>
+<pin name="+8V@2" x="-17.78" y="-20.32" length="middle" direction="pwr"/>
+<pin name="+8V@1" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
+<pin name="+16V" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
+<pin name="-16V" x="-17.78" y="-12.7" length="middle" direction="pwr"/>
+<pin name="!D0" x="17.78" y="35.56" length="middle" rot="R180"/>
+<pin name="!D1" x="17.78" y="33.02" length="middle" rot="R180"/>
+<pin name="!D2" x="17.78" y="30.48" length="middle" rot="R180"/>
+<pin name="!D3" x="17.78" y="27.94" length="middle" rot="R180"/>
+<pin name="!D4" x="17.78" y="25.4" length="middle" rot="R180"/>
+<pin name="!D5" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="!D6" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="!D7" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="INDEX" x="17.78" y="-30.48" length="middle" direction="nc" rot="R180"/>
+<pin name="!BUSY" x="-17.78" y="25.4" length="middle"/>
+<pin name="!IRQ" x="-17.78" y="30.48" length="middle"/>
+<pin name="A0" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="!E" x="-17.78" y="22.86" length="middle"/>
+<pin name="!VMA" x="-17.78" y="20.32" length="middle"/>
+<pin name="!RESET" x="-17.78" y="35.56" length="middle"/>
+<pin name="/BUSRQ" x="-17.78" y="2.54" length="middle"/>
+<pin name="150B/S3" x="-17.78" y="0" length="middle"/>
+<pin name="300B/S2" x="-17.78" y="-2.54" length="middle"/>
+<pin name="600B/S1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="1200B/S0" x="-17.78" y="-7.62" length="middle"/>
+<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="38.1" x2="12.7" y2="38.1" width="0.254" layer="94"/>
+<wire x1="12.7" y1="38.1" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
+<text x="-4.064" y="38.862" size="1.778" layer="95">&gt;Name</text>
+<pin name="!Q" x="-17.78" y="12.7" length="middle"/>
+<pin name="!FIRQ" x="-17.78" y="27.94" length="middle"/>
+<pin name="A1" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="A2" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="A3" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="A4" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="A5" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="A6" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="A7" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="A8" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="A9" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="A10" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="A11" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="A12" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="A13" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="A14" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="A15" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="GND@3" x="-17.78" y="-30.48" length="middle" direction="pwr"/>
+<pin name="+8V@3" x="-17.78" y="-22.86" length="middle" direction="pwr"/>
+<pin name="MRDY" x="-17.78" y="10.16" length="middle"/>
+<pin name="BS" x="-17.78" y="15.24" length="middle"/>
+<pin name="BA" x="-17.78" y="17.78" length="middle"/>
+<pin name="!HALT" x="-17.78" y="33.02" length="middle"/>
+<pin name="R/!W" x="-17.78" y="7.62" length="middle"/>
+</symbol>
+<symbol name="SS-50_BOARD_CONNECTOR">
+<pin name="GND@2" x="-17.78" y="-12.7" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
+<pin name="+8V@2" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
+<pin name="+8V@1" x="-17.78" y="-2.54" length="middle" direction="pwr"/>
+<pin name="+12V" x="-17.78" y="0" length="middle" direction="pwr"/>
+<pin name="-12V" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="!D0" x="17.78" y="35.56" length="middle" rot="R180"/>
+<pin name="!D1" x="17.78" y="33.02" length="middle" rot="R180"/>
+<pin name="!D2" x="17.78" y="30.48" length="middle" rot="R180"/>
+<pin name="!D3" x="17.78" y="27.94" length="middle" rot="R180"/>
+<pin name="!D4" x="17.78" y="25.4" length="middle" rot="R180"/>
+<pin name="!D5" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="!D6" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="!D7" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="INDEX" x="-17.78" y="35.56" length="middle" direction="nc"/>
+<pin name="!NMI" x="-17.78" y="25.4" length="middle"/>
+<pin name="!IRQ" x="-17.78" y="22.86" length="middle"/>
+<pin name="A0" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="!PHASE_2" x="-17.78" y="-22.86" length="middle"/>
+<pin name="!VMA" x="-17.78" y="-27.94" length="middle"/>
+<pin name="!RESET" x="-17.78" y="27.94" length="middle"/>
+<pin name="110_BAUD" x="-17.78" y="17.78" length="middle"/>
+<pin name="150_BAUD" x="-17.78" y="15.24" length="middle"/>
+<pin name="300_BAUD" x="-17.78" y="12.7" length="middle"/>
+<pin name="600_BAUD" x="-17.78" y="10.16" length="middle"/>
+<pin name="1200_BAUD" x="-17.78" y="7.62" length="middle"/>
+<wire x1="-12.7" y1="-38.1" x2="-12.7" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="38.1" x2="12.7" y2="38.1" width="0.254" layer="94"/>
+<wire x1="12.7" y1="38.1" x2="12.7" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-38.1" x2="-12.7" y2="-38.1" width="0.254" layer="94"/>
+<text x="-4.064" y="38.862" size="1.778" layer="95">&gt;Name</text>
+<pin name="UD_1" x="17.78" y="-30.48" length="middle" rot="R180"/>
+<pin name="UD_2" x="17.78" y="-33.02" length="middle" rot="R180"/>
+<pin name="A1" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="A2" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="A3" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="A4" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="A5" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="A6" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="A7" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="A8" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="A9" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="A10" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="A11" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="A12" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="A13" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="A14" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="A15" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="GND@3" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
+<pin name="+8V@3" x="-17.78" y="-7.62" length="middle" direction="pwr"/>
+<pin name="!M.RST" x="-17.78" y="30.48" length="middle"/>
+<pin name="!PHASE_1" x="-17.78" y="-20.32" length="middle"/>
+<pin name="BA" x="-17.78" y="-30.48" length="middle"/>
+<pin name="!HALT" x="-17.78" y="-33.02" length="middle"/>
+<pin name="R/!W" x="-17.78" y="-35.56" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SS-30_BOARD_CONNECTOR">
+<gates>
+<gate name="G$2" symbol="SS-30_BOARD_CONNECTOR" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="SS-30_BOARD_CONNECTOR">
+<connects>
+<connect gate="G$2" pin="!IRQ" pad="9"/>
+<connect gate="G$2" pin="!NMI" pad="8"/>
+<connect gate="G$2" pin="!RESET" pad="29"/>
+<connect gate="G$2" pin="!SELECT" pad="30"/>
+<connect gate="G$2" pin="+12V" pad="4"/>
+<connect gate="G$2" pin="+8V@1" pad="22"/>
+<connect gate="G$2" pin="+8V@2" pad="23"/>
+<connect gate="G$2" pin="-12V" pad="3"/>
+<connect gate="G$2" pin="110_BAUD" pad="28"/>
+<connect gate="G$2" pin="1200_BAUD" pad="24"/>
+<connect gate="G$2" pin="150_BAUD" pad="27"/>
+<connect gate="G$2" pin="300_BAUD" pad="26"/>
+<connect gate="G$2" pin="600_BAUD" pad="25"/>
+<connect gate="G$2" pin="D0" pad="12"/>
+<connect gate="G$2" pin="D1" pad="13"/>
+<connect gate="G$2" pin="D2" pad="14"/>
+<connect gate="G$2" pin="D3" pad="15"/>
+<connect gate="G$2" pin="D4" pad="16"/>
+<connect gate="G$2" pin="D5" pad="17"/>
+<connect gate="G$2" pin="D6" pad="18"/>
+<connect gate="G$2" pin="D7" pad="19"/>
+<connect gate="G$2" pin="GND@1" pad="5"/>
+<connect gate="G$2" pin="GND@2" pad="6"/>
+<connect gate="G$2" pin="INDEX" pad="7"/>
+<connect gate="G$2" pin="PHASE_2" pad="20"/>
+<connect gate="G$2" pin="R/!W" pad="21"/>
+<connect gate="G$2" pin="RS0" pad="10"/>
+<connect gate="G$2" pin="RS1" pad="11"/>
+<connect gate="G$2" pin="UD_3" pad="1"/>
+<connect gate="G$2" pin="UD_4" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS-30_MALE_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="SS-30_BOARD_CONNECTOR" x="-12.7" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SS-30_MALE_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="!IRQ" pad="9"/>
+<connect gate="G$1" pin="!NMI" pad="8"/>
+<connect gate="G$1" pin="!RESET" pad="29"/>
+<connect gate="G$1" pin="!SELECT" pad="30"/>
+<connect gate="G$1" pin="+12V" pad="4"/>
+<connect gate="G$1" pin="+8V@1" pad="22"/>
+<connect gate="G$1" pin="+8V@2" pad="23"/>
+<connect gate="G$1" pin="-12V" pad="3"/>
+<connect gate="G$1" pin="110_BAUD" pad="28"/>
+<connect gate="G$1" pin="1200_BAUD" pad="24"/>
+<connect gate="G$1" pin="150_BAUD" pad="27"/>
+<connect gate="G$1" pin="300_BAUD" pad="26"/>
+<connect gate="G$1" pin="600_BAUD" pad="25"/>
+<connect gate="G$1" pin="D0" pad="12"/>
+<connect gate="G$1" pin="D1" pad="13"/>
+<connect gate="G$1" pin="D2" pad="14"/>
+<connect gate="G$1" pin="D3" pad="15"/>
+<connect gate="G$1" pin="D4" pad="16"/>
+<connect gate="G$1" pin="D5" pad="17"/>
+<connect gate="G$1" pin="D6" pad="18"/>
+<connect gate="G$1" pin="D7" pad="19"/>
+<connect gate="G$1" pin="GND@1" pad="5"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="PHASE_2" pad="20"/>
+<connect gate="G$1" pin="R/!W" pad="21"/>
+<connect gate="G$1" pin="RS0" pad="10"/>
+<connect gate="G$1" pin="RS1" pad="11"/>
+<connect gate="G$1" pin="UD_3" pad="1"/>
+<connect gate="G$1" pin="UD_4" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS-50C_BOARD_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="SS-50C_BOARD_CONNECTOR" x="-2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SS-50_BOARD_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="!BUSY" pad="35"/>
+<connect gate="G$1" pin="!D0" pad="1"/>
+<connect gate="G$1" pin="!D1" pad="2"/>
+<connect gate="G$1" pin="!D2" pad="3"/>
+<connect gate="G$1" pin="!D3" pad="4"/>
+<connect gate="G$1" pin="!D4" pad="5"/>
+<connect gate="G$1" pin="!D5" pad="6"/>
+<connect gate="G$1" pin="!D6" pad="7"/>
+<connect gate="G$1" pin="!D7" pad="8"/>
+<connect gate="G$1" pin="!E" pad="39"/>
+<connect gate="G$1" pin="!FIRQ" pad="37"/>
+<connect gate="G$1" pin="!HALT" pad="45"/>
+<connect gate="G$1" pin="!IRQ" pad="36"/>
+<connect gate="G$1" pin="!Q" pad="38"/>
+<connect gate="G$1" pin="!RESET" pad="42"/>
+<connect gate="G$1" pin="!VMA" pad="40"/>
+<connect gate="G$1" pin="+16V" pad="32"/>
+<connect gate="G$1" pin="+8V@1" pad="28"/>
+<connect gate="G$1" pin="+8V@2" pad="29"/>
+<connect gate="G$1" pin="+8V@3" pad="30"/>
+<connect gate="G$1" pin="-16V" pad="31"/>
+<connect gate="G$1" pin="/BUSRQ" pad="46"/>
+<connect gate="G$1" pin="1200B/S0" pad="50"/>
+<connect gate="G$1" pin="150B/S3" pad="47"/>
+<connect gate="G$1" pin="300B/S2" pad="48"/>
+<connect gate="G$1" pin="600B/S1" pad="49"/>
+<connect gate="G$1" pin="A0" pad="24"/>
+<connect gate="G$1" pin="A1" pad="23"/>
+<connect gate="G$1" pin="A10" pad="14"/>
+<connect gate="G$1" pin="A11" pad="13"/>
+<connect gate="G$1" pin="A12" pad="12"/>
+<connect gate="G$1" pin="A13" pad="11"/>
+<connect gate="G$1" pin="A14" pad="10"/>
+<connect gate="G$1" pin="A15" pad="9"/>
+<connect gate="G$1" pin="A2" pad="22"/>
+<connect gate="G$1" pin="A3" pad="21"/>
+<connect gate="G$1" pin="A4" pad="20"/>
+<connect gate="G$1" pin="A5" pad="19"/>
+<connect gate="G$1" pin="A6" pad="18"/>
+<connect gate="G$1" pin="A7" pad="17"/>
+<connect gate="G$1" pin="A8" pad="16"/>
+<connect gate="G$1" pin="A9" pad="15"/>
+<connect gate="G$1" pin="BA" pad="43"/>
+<connect gate="G$1" pin="BS" pad="44"/>
+<connect gate="G$1" pin="GND@1" pad="25"/>
+<connect gate="G$1" pin="GND@2" pad="26"/>
+<connect gate="G$1" pin="GND@3" pad="27"/>
+<connect gate="G$1" pin="INDEX" pad="33"/>
+<connect gate="G$1" pin="MRDY" pad="34"/>
+<connect gate="G$1" pin="R/!W" pad="41"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS-50_BOARD_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="SS-50_BOARD_CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SS-50_BOARD_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="!D0" pad="1"/>
+<connect gate="G$1" pin="!D1" pad="2"/>
+<connect gate="G$1" pin="!D2" pad="3"/>
+<connect gate="G$1" pin="!D3" pad="4"/>
+<connect gate="G$1" pin="!D4" pad="5"/>
+<connect gate="G$1" pin="!D5" pad="6"/>
+<connect gate="G$1" pin="!D6" pad="7"/>
+<connect gate="G$1" pin="!D7" pad="8"/>
+<connect gate="G$1" pin="!HALT" pad="45"/>
+<connect gate="G$1" pin="!IRQ" pad="36"/>
+<connect gate="G$1" pin="!M.RST" pad="34"/>
+<connect gate="G$1" pin="!NMI" pad="35"/>
+<connect gate="G$1" pin="!PHASE_1" pad="44"/>
+<connect gate="G$1" pin="!PHASE_2" pad="39"/>
+<connect gate="G$1" pin="!RESET" pad="42"/>
+<connect gate="G$1" pin="!VMA" pad="40"/>
+<connect gate="G$1" pin="+12V" pad="32"/>
+<connect gate="G$1" pin="+8V@1" pad="28"/>
+<connect gate="G$1" pin="+8V@2" pad="29"/>
+<connect gate="G$1" pin="+8V@3" pad="30"/>
+<connect gate="G$1" pin="-12V" pad="31"/>
+<connect gate="G$1" pin="110_BAUD" pad="46"/>
+<connect gate="G$1" pin="1200_BAUD" pad="50"/>
+<connect gate="G$1" pin="150_BAUD" pad="47"/>
+<connect gate="G$1" pin="300_BAUD" pad="48"/>
+<connect gate="G$1" pin="600_BAUD" pad="49"/>
+<connect gate="G$1" pin="A0" pad="24"/>
+<connect gate="G$1" pin="A1" pad="23"/>
+<connect gate="G$1" pin="A10" pad="14"/>
+<connect gate="G$1" pin="A11" pad="13"/>
+<connect gate="G$1" pin="A12" pad="12"/>
+<connect gate="G$1" pin="A13" pad="11"/>
+<connect gate="G$1" pin="A14" pad="10"/>
+<connect gate="G$1" pin="A15" pad="9"/>
+<connect gate="G$1" pin="A2" pad="22"/>
+<connect gate="G$1" pin="A3" pad="21"/>
+<connect gate="G$1" pin="A4" pad="20"/>
+<connect gate="G$1" pin="A5" pad="19"/>
+<connect gate="G$1" pin="A6" pad="18"/>
+<connect gate="G$1" pin="A7" pad="17"/>
+<connect gate="G$1" pin="A8" pad="16"/>
+<connect gate="G$1" pin="A9" pad="15"/>
+<connect gate="G$1" pin="BA" pad="43"/>
+<connect gate="G$1" pin="GND@1" pad="25"/>
+<connect gate="G$1" pin="GND@2" pad="26"/>
+<connect gate="G$1" pin="GND@3" pad="27"/>
+<connect gate="G$1" pin="INDEX" pad="33"/>
+<connect gate="G$1" pin="R/!W" pad="41"/>
+<connect gate="G$1" pin="UD_1" pad="37"/>
+<connect gate="G$1" pin="UD_2" pad="38"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS-50_MALE_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="SS-50_BOARD_CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SS-50_MALE_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="!D0" pad="1"/>
+<connect gate="G$1" pin="!D1" pad="2"/>
+<connect gate="G$1" pin="!D2" pad="3"/>
+<connect gate="G$1" pin="!D3" pad="4"/>
+<connect gate="G$1" pin="!D4" pad="5"/>
+<connect gate="G$1" pin="!D5" pad="6"/>
+<connect gate="G$1" pin="!D6" pad="7"/>
+<connect gate="G$1" pin="!D7" pad="8"/>
+<connect gate="G$1" pin="!HALT" pad="45"/>
+<connect gate="G$1" pin="!IRQ" pad="36"/>
+<connect gate="G$1" pin="!M.RST" pad="34"/>
+<connect gate="G$1" pin="!NMI" pad="35"/>
+<connect gate="G$1" pin="!PHASE_1" pad="44"/>
+<connect gate="G$1" pin="!PHASE_2" pad="39"/>
+<connect gate="G$1" pin="!RESET" pad="42"/>
+<connect gate="G$1" pin="!VMA" pad="40"/>
+<connect gate="G$1" pin="+12V" pad="32"/>
+<connect gate="G$1" pin="+8V@1" pad="28"/>
+<connect gate="G$1" pin="+8V@2" pad="29"/>
+<connect gate="G$1" pin="+8V@3" pad="30"/>
+<connect gate="G$1" pin="-12V" pad="31"/>
+<connect gate="G$1" pin="110_BAUD" pad="46"/>
+<connect gate="G$1" pin="1200_BAUD" pad="50"/>
+<connect gate="G$1" pin="150_BAUD" pad="47"/>
+<connect gate="G$1" pin="300_BAUD" pad="48"/>
+<connect gate="G$1" pin="600_BAUD" pad="49"/>
+<connect gate="G$1" pin="A0" pad="24"/>
+<connect gate="G$1" pin="A1" pad="23"/>
+<connect gate="G$1" pin="A10" pad="14"/>
+<connect gate="G$1" pin="A11" pad="13"/>
+<connect gate="G$1" pin="A12" pad="12"/>
+<connect gate="G$1" pin="A13" pad="11"/>
+<connect gate="G$1" pin="A14" pad="10"/>
+<connect gate="G$1" pin="A15" pad="9"/>
+<connect gate="G$1" pin="A2" pad="22"/>
+<connect gate="G$1" pin="A3" pad="21"/>
+<connect gate="G$1" pin="A4" pad="20"/>
+<connect gate="G$1" pin="A5" pad="19"/>
+<connect gate="G$1" pin="A6" pad="18"/>
+<connect gate="G$1" pin="A7" pad="17"/>
+<connect gate="G$1" pin="A8" pad="16"/>
+<connect gate="G$1" pin="A9" pad="15"/>
+<connect gate="G$1" pin="BA" pad="43"/>
+<connect gate="G$1" pin="GND@1" pad="25"/>
+<connect gate="G$1" pin="GND@2" pad="26"/>
+<connect gate="G$1" pin="GND@3" pad="27"/>
+<connect gate="G$1" pin="INDEX" pad="33"/>
+<connect gate="G$1" pin="R/!W" pad="41"/>
+<connect gate="G$1" pin="UD_1" pad="37"/>
+<connect gate="G$1" pin="UD_2" pad="38"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
